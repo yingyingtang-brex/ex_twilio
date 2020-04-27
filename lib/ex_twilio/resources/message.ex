@@ -30,7 +30,8 @@ defmodule ExTwilio.Message do
             api_version: nil,
             uri: nil,
             subresource_uri: nil,
-            messaging_service_sid: nil
+            messaging_service_sid: nil,
+            media_url: nil,
 
   use ExTwilio.Resource,
     import: [
